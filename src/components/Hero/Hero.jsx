@@ -40,7 +40,7 @@ function Hero() {
         </section>
       </section>
       <section className="hero-content">
-        <h1> Discover innovative ways to decorate</h1>
+        <h1>Discover innovative ways to decorate</h1>
         <p>
           We provide unmatched quality, comfort, and style for property owners
           across the country. Our experts combine form and function in bringing

@@ -26,11 +26,17 @@
 @media (min-width: 768px) {
   .about {
     grid-template-columns: 1fr 2fr 1fr;
+    min-height:40vh;
   }
 }
 
 @media (min-width: 992px) {
   .about-content {
     padding: 20px;
+
+
+    h1{
+      padding-top:40px;
+    }
   }
 }
