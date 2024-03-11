@@ -1,0 +1,36 @@
+@use "../../assets/scss/variables" as *;
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr;
+  box-shadow: 1px 1px 1px 1px rgba($black, 0.1);
+
+  img {
+    height: 100%;
+  }
+}
+
+.about-content {
+  padding: 20px;
+
+  h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+}
+
+@media (min-width: 992px) {
+  .about-content {
+    padding: 20px;
+  }
+}
